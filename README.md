@@ -1,6 +1,6 @@
 
-待看：https://ithelp.ithome.com.tw/m/articles/10332201
-https://kit-clj.github.io/docs/guestbook.html#guestbook_application
+待看：https://ithelp.ithome.com.tw/m/users/20151416/ironman/6756
+TODO:https://kit-clj.github.io/docs/guestbook.html#guestbook_application
 
 # prepare env
 
