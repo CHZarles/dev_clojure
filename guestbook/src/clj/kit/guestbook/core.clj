@@ -1,3 +1,4 @@
+;; src/clj/kit/guestbook/core.clj
 (ns kit.guestbook.core
   (:require
    [clojure.tools.logging :as log]
@@ -5,11 +6,11 @@
    [kit.guestbook.config :as config]
    [kit.guestbook.env :refer [defaults]]
 
-    ;; Edges
+   ;; Edges
    [kit.edge.server.undertow]
    [kit.guestbook.web.handler]
 
-    ;; Routes
+   ;; Routes
    [kit.guestbook.web.routes.api])
   (:gen-class))
 

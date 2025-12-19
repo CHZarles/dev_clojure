@@ -1,11 +1,12 @@
+;; resources/system.edn
 {:system/env
  #profile {:dev  :dev
            :test :test
            :prod :prod}
- 
- 
- 
- 
+
+
+
+
 
  :server/http
  {:port    #long #or [#env PORT 3000]
@@ -46,4 +47,4 @@
 
  :router/core
  {:routes #ig/ref :router/routes
-  :env #ig/ref :system/env} }
+  :env #ig/ref :system/env}}

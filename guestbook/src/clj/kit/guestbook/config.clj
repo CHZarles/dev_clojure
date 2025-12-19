@@ -1,6 +1,7 @@
+;; src/clj/kit/guestbook/config.clj
 (ns kit.guestbook.config
   (:require
-    [kit.config :as config]))
+   [kit.config :as config]))
 
 (def ^:const system-filename "system.edn")
 
